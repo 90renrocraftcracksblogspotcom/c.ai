@@ -1,5 +1,10 @@
 This IS How you all will use it
 
+##Major Definition Changes##
+1. Added New Lite Version for keeping it simple for bot to use
+2. The lite version is 172 lines only (orignal was 222 lines long)
+3. New Heavily Changed Css Under Development (Target 16k+ words)
+
 First of all we need description : 
 - WE NEED TO USE CHATGPT FOR IT SO I WILL TEACH HOW
 - Ask Chatgpt to make one
