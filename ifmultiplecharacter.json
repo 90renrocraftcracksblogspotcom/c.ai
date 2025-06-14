@@ -1,0 +1,59 @@
+{
+  "world": {
+    "name": "Eldoria",
+    "description": "A vast fantasy realm of magic, mystery, and adventure.",
+    "settings": {
+      "genre": "Fantasy",
+      "rules": ["Magic exists", "Technology is medieval", "Monsters roam the wilds"]
+    },
+    "locations": [
+      {
+        "id": "loc_001",
+        "name": "Silverwood Village",
+        "description": "A peaceful village surrounded by ancient woods.",
+        "characters": [
+          {
+            "id": "char_001",
+            "name": "Mira",
+            "role": "Innkeeper",
+            "personality": ["cheerful", "nosy"],
+            "dialogue_templates": [
+              "Welcome to the Silverwood Inn, traveler!",
+              "Have you heard any news from the capital?"
+            ],
+            "memory": []
+          }
+          // More static or generated characters
+        ],
+        "objects": [
+          {
+            "id": "obj_001",
+            "name": "Ancient Oak Tree",
+            "description": "A massive tree at the village center."
+          }
+        ]
+      }
+      // More locations
+    ],
+    "character_generation": {
+      "name_pool": ["Aelric", "Brynn", "Cassandra", "Doran", "Elira"],
+      "roles": ["merchant", "guard", "farmer", "bard", "mysterious stranger"],
+      "personality_traits": ["friendly", "grumpy", "curious", "shy", "bold"],
+      "dialogue_templates": [
+        "Hello, stranger.",
+        "What brings you here?",
+        "Care to trade?",
+        "Stay out of trouble."
+      ]
+    },
+    "global_characters": [],
+    "objects": [],
+    "events": [],
+    "history": [],
+    "ai_memory": {
+      "characters_met": [],
+      "events_occurred": [],
+      "user_interactions": []
+    }
+  }
+}
